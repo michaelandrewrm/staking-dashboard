@@ -6,7 +6,7 @@
   font-weight: var(--font-weight-normal);
 
   color-scheme: light dark;
-  color: var(--color-neutral-100);
+  color: var(--color-neutral-300);
   background-color: var(--color-neutral-800);
 
   font-synthesis: none;
@@ -32,7 +32,7 @@ body {
 @media (prefers-color-scheme: light) {
   :root {
     color: var(--color-neutral-800);
-    background-color: var(--color-neutral-100);
+    background-color: var(--color-neutral-300);
   }
 }
 
