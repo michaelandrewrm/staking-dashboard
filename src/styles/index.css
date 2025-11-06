@@ -6,8 +6,8 @@
   font-weight: var(--font-weight-normal);
 
   color-scheme: light dark;
-  color: var(--color-gray-100);
-  background-color: var(--color-gray-950);
+  color: var(--color-neutral-100);
+  background-color: var(--color-neutral-800);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -31,8 +31,8 @@ body {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: var(--color-gray-900);
-    background-color: var(--color-white);
+    color: var(--color-neutral-800);
+    background-color: var(--color-neutral-100);
   }
 }
 
@@ -40,5 +40,5 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: var(--color-gray-900);
+  background-color: var(--color-neutral-800);
 }
